@@ -1,0 +1,51 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #90e0ef;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .childhood {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .childhood img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .marquee{
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240909/pngtree-cartoon-background-for-kids-image_16138987.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .card {
+            background: #fff;
+            width: 300px;
+            border-radius: 20px;
+            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            color: #333;
+            margin-left: auto;
+        }
+       .card:hover {
+            background-color: #90e0ef;
+            color:black;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
